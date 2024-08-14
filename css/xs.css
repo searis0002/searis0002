@@ -8,6 +8,8 @@ body{
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
     background-color: #b2d6e0;
+    background-color: #debbe2;
+    background-color: #273129;
     position:relative;
 }
 a{
@@ -240,6 +242,7 @@ select {
 .section2 .col{
   padding: 4px;
   background-color: #f3f3e0;
+  background-color: #8f96b6;
   border-radius: 15px;
   text-align: center;
 }
