@@ -8,8 +8,6 @@ body{
     font-family:'Courier New', Courier, monospace, 'Zen Kaku Gothic New', sans-serif;
     color:firebrick;
     background-color: #b2d6e0;
-    background-color: #debbe2;
-    background-color: #273129;
     position:relative;
 }
 a{
@@ -72,22 +70,6 @@ footer {
 .section00 .container{
   width: 90%;
   margin: 0 auto;
-}
-@media screen and (max-width: 767px){
-  .section1 .container{
-      width: 98%;
-  }
-  .section1 {
-      font-size: 27px;
-  }
-  .section2 .col{
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .section3 .col{
-      width: 100%;
-      margin-bottom: 30px;
-  }
 }
 
 select {
@@ -242,7 +224,6 @@ select {
 .section2 .col{
   padding: 4px;
   background-color: #f3f3e0;
-  background-color: #8f96b6;
   border-radius: 15px;
   text-align: center;
 }
@@ -332,6 +313,41 @@ select {
   line-height: 1.5;
 }
 
+@media screen and (max-width: 767px){
+  .section1 .container{
+      width: 98%;
+  }
+  .section1 {
+      font-size: 27px;
+  }
+  .section2 .col{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .section3 .col{
+      width: 100%;
+      margin-bottom: 30px;
+  }
+  .select-index{
+    width: 96%;
+    margin: 0 auto;
+  }
+  .select-index ul{
+    width: 98%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+  }
+  .select-index li{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 2%;
+    background-color:#ecdfdf;
+    font-weight: bold;
+  }
+}
 
 #modal-container {
   display: none;

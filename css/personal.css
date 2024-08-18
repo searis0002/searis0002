@@ -15,11 +15,9 @@ a {
     color: rgb(139, 67, 255);
 }
 header{
-    font-weight: 900;
-    font-weight: bold;
+    font-weight: 700;
     width: 100%;
     z-index: 3;
-    font-size: 24px;
 }
 header .hidden{
     font-size: 2px;
@@ -48,7 +46,7 @@ header ul li{
     letter-spacing: 1px;
 } 
 header .a a{
-    color:rgb(174, 214, 214);
+    color: rgb(174, 214, 214);
 }
 footer {
     width: 100%;
