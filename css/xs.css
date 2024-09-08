@@ -336,6 +336,15 @@ select {
     border-radius: 32px;
     margin-top: 38px;
   }
+  .section2 img{
+    width: 120px;
+    height: auto;
+    padding: 8px;
+    border: 9px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
   .section3 .col{
       width: 100%;
       margin-bottom: 30px;
