@@ -317,9 +317,6 @@ select {
   .section1 .container{
       width: 98%;
   }
-  .section1 {
-      font-size: 27px;
-  }
   .section2 .row{
     display: flex;
     justify-content: space-around;
